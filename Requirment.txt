@@ -1,0 +1,8 @@
+Django==5.1.4
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-environ==0.11.2
+Pillow==10.2.0  # For image uploads
+gunicorn==21.2.0  # For deployment
+whitenoise==6.6.0  # Static file serving
+django-sendgrid-v5==1.2.0  # If using SendGrid for email
